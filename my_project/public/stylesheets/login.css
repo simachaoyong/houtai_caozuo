@@ -1,0 +1,60 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font-size:12px;  line-height:1.5em;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none; color:#03329c;}a:hover{text-decoration:underline; color:#cc0000;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}
+body{background: #006eb0 url(../images/lgbg.png) center top no-repeat;clear: both;margin: 0 auto;width: 100%;min-width: 960px;}
+*{
+	box-sizing:border-box;
+}
+.main{
+	border-top:3px solid #1D5B8E;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.mainin{
+	width:380px;
+	margin:0 auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.mainin h1{
+	font-size:24px;
+	color:#fff;
+	font-weight:500;
+	text-align:center;
+	line-height:40px;
+}
+.mainin1{
+	width:100%;
+	background-color:#DDEBF4;
+	height:322px;
+}
+.mainin1 ul{
+	padding:26px 25px 0;
+}
+#loginName,#Possword{
+	display:block;
+	width:100%;
+	height:37px;
+	border:1px solid #C5C9CC;
+	background-color:#fff;
+	padding-left:10px;
+	margin-bottom:26px;
+}
+.mainin1 ul li span{
+	color:#687178;
+	display:inline-block;
+	line-height:36px;
+}
+.tijiao{
+	border:1px solid #C86E2F;
+	border-radius:4px;
+	background-color:#F2721B;
+	height:42px;
+	width:190px;
+	color:#fff;
+	font-size:14px;
+	margin-top:10px;
+}
